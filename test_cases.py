@@ -25,5 +25,3 @@ class TestCases:
 
 
 # if __name__ == "__main__":
-#     homepage = TestCases.test_get_homepage()
-#     print(homepage)
