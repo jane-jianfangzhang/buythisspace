@@ -13,6 +13,6 @@ def run(command):
 
 if __name__ == "__main__":
 
-    test_command = "pytest -s " + os.path.join(root_path, "test_cases.py::TestCases::test_get_homepage") + \
-                   " --html=" + os.path.join(root_path, "report_output", "buy_this_space_testing_report.html")
+    test_command = "python3 -m pytest -s " + os.path.join(root_path, "test_cases.py::TestCases::test_get_homepage")
+                  # " --html=" + os.path.join(root_path, "report_output", "buy_this_space_testing_report.html")
     run(test_command)
